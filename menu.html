@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Delight - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Café Delight</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="section">
+        <h1 style="color: #D2691E;">Our Menu</h1>
+        <label for="menu-filter">Filter by Category:</label>
+        <select id="menu-filter">
+            <option value="all">All</option>
+            <option value="drinks">Drinks</option>
+            <option value="food">Food</option>
+        </select>
+        <div class="menu-grid">
+            <div class="item drinks">
+                <img src="images/latte.jpg" alt="Latte">
+                <h3>Café Latte</h3>
+                <p>Smooth espresso with steamed milk.</p>
+                <p class="price">$4.00</p>
+            </div>
+            <div class="item drinks">
+                <img src="images/tea.jpg" alt="Tea">
+                <h3>Green Tea</h3>
+                <p>Refreshing and antioxidant-rich.</p>
+                <p class="price">$3.00</p>
+            </div>
+            <div class="item food">
+                <img src="images/sandwich.jpg" alt="Sandwich">
+                <h3>Avocado Toast</h3>
+                <p>Toasted bread with fresh avocado.</p>
+                <p class="price">$6.50</p>
+            </div>
+            <!-- Add more items -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Café Delight. Follow us on <a href="#" style="color: #228B22;">Instagram</a> | <a href="#" style="color: #228B22;">Facebook</a></p>
+    </footer>
+</body>
+</html>
