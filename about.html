@@ -3,36 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café Delight - About</title>
+    <title>About Us | Café Delight</title>
+    <meta name="description" content="Founded in 2010, Café Delight is built on quality coffee and community. We source beans ethically and bake fresh daily.">
+    <meta name="theme-color" content="#8b4513">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="About Us | Café Delight">
+    <meta property="og:description" content="Quality coffee and community since 2010. Ethically sourced beans, baked fresh daily.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%98%95%3C/text%3E%3C/svg%3E">
     <link rel="stylesheet" href="styles.css">
+    <script>document.documentElement.classList.add('js');</script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Café Delight</div>
-            <ul>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header">
+        <nav class="nav" aria-label="Main">
+            <a class="logo" href="index.html">Café Delight</a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu" aria-label="Toggle navigation">&#9776;</button>
+            <ul class="nav-links" id="nav-menu">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="about.html" aria-current="page">About</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section class="section">
-        <h1 style="color: #D2691E;">About Us</h1>
-        <p>Café Delight was founded in 2010 with a passion for quality coffee and community. We source beans ethically and bake fresh daily.</p>
-        <h2>What We Offer</h2>
-        <ul>
-            <li>Artisanal coffees and teas</li>
-            <li>Fresh pastries and sandwiches</li>
-            <li>Cozy seating and free Wi-Fi</li>
-            <li>Events like coffee tastings</li>
-        </ul>
-    </section>
-    
-    <footer>
-        <p>&copy; 2023 Café Delight. Follow us on <a href="#" style="color: #228B22;">Instagram</a> | <a href="#" style="color: #228B22;">Facebook</a></p>
+
+    <main id="main">
+        <section class="section">
+            <h1>About Us</h1>
+            <p>Café Delight was founded in 2010 with a passion for quality coffee and community. We source beans ethically and bake fresh daily.</p>
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Artisanal coffees and teas</li>
+                <li>Fresh pastries and sandwiches</li>
+                <li>Cozy seating and free Wi-Fi</li>
+                <li>Events like coffee tastings</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <!-- TODO: replace the # links with your real social profile URLs -->
+        <p>&copy; <span id="year">2026</span> Café Delight. Follow us on <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
     </footer>
 </body>
 </html>
