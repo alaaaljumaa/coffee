@@ -1,8 +1,15 @@
 # ☕ Café Delight
 
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen?style=flat-square)](https://alaaaljumaa.github.io/coffee/)
+[![Made with HTML](https://img.shields.io/badge/HTML-5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![Made with CSS](https://img.shields.io/badge/CSS-3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![Made with JavaScript](https://img.shields.io/badge/JavaScript-ES6+-F7DF1E?style=flat-square&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+
 A modern, responsive, accessible multi-page website for a fictional café — built with **vanilla HTML, CSS, and JavaScript**. No frameworks, no build step, no dependencies.
 
 > Design language: warm editorial café aesthetic — terracotta accents, deep forest darks, serif display headings, and generous white space.
+
+🔗 **Live site:** [https://alaaaljumaa.github.io/coffee/](https://alaaaljumaa.github.io/coffee/)
 
 ---
 
@@ -11,6 +18,8 @@ A modern, responsive, accessible multi-page website for a fictional café — bu
 Café Delight is a complete static website template for a coffee shop, bakery, or any small hospitality business. It ships with four fully designed pages, a sticky frosted-glass header, a mobile-friendly navigation menu, a JavaScript-powered menu filter, a contact form, and a modern About page with team, story, stats, and CTA sections.
 
 The project is intentionally **framework-free** — it loads fast, works offline after the first visit, and can be hosted anywhere that serves static files (GitHub Pages, Netlify, Vercel, Cloudflare Pages, any shared host, or even a USB stick).
+
+🌐 **See it live →** [https://alaaaljumaa.github.io/coffee/](https://alaaaljumaa.github.io/coffee/)
 
 ---
 
